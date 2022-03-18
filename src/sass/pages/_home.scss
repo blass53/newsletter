@@ -1,0 +1,32 @@
+/* ********* */
+/* @HOME */
+/* ********* */
+section{
+    background: linear-gradient(to bottom, 
+    map-get($coloresAzulesDegradados, degradado1), 
+    map-get($coloresAzulesDegradados, degradado2) );
+
+    height: 100vh;
+
+    font-size: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input, button{
+background-color: inherit;
+
+border-color: white;
+border-radius: 5px;
+color: white;
+margin: 1%;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid;
+    border-radius: 15px;
+}
